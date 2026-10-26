@@ -64,5 +64,5 @@ Los tests comprueban:
 
 Se utiliza `@AfterTest` para restaurar las variables después de cada prueba y evitar que los resultados dependan del test anterior.
 
-![Captura desde 2026-10-26 10-40-19.png](main/capturas/Captura%20desde%202026-10-26%2010-40-19.png)
+![Captura desde 2026-10-26 10-40-19.png](capturas/Captura%20desde%202026-10-26%2010-40-19.png)
 
