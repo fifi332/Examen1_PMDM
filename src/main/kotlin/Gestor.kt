@@ -1,8 +1,11 @@
 package org.danielcastelao.dam
 
+// nivel en el que se encuentra el ascensor
 var nivel_actual: Int = 0
+// estado actual del ascensor
 var estado_acual: Estados = Estados.Idle
 
+// Variables de botones
 const val nivel_0 = 0
 const val nivel_1 = 1
 
@@ -14,20 +17,16 @@ fun gestor(): Int {
                 nivel_actual = 0
             }
         }
-
         is Estados.MovingUP -> {
             nivel_actual = 2
         }
-
         is Estados.MovingDOWN -> {
             nivel_actual = 2
         }
-
         is Estados.Error -> {
             nivel_actual = -1
         }
     }
-
     return nivel_actual
 }
 
