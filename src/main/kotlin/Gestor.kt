@@ -1,9 +1,6 @@
 package org.danielcastelao.dam
 
-// Nivel en el que se encuentra el mecanismo.
 var nivel_actual: Int = 0
-
-// Estado actual.
 var estado_acual: Estados = Estados.Idle
 
 const val nivel_0 = 0
